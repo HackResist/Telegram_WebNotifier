@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "Website Notification On Telegram", // Name of Extension
+    "description": "Notify on Telegram  When User Visit On Any Website",// Description of Website
+    "permissions": ["tabs", "notifications", "webNavigation"],
+    "background": {
+      "scripts": ["dist/background.js"], //Load File in Background
+      "persistent": false
+    },
+    
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "browser_action": {
+     "default_popup": "popup.html",  //you can add your Html Page for default popup
+      "default_icon": {
+        "16": "extension.png",
+        "48": "extension.png",
+        "128": "extension.png"
+      }
+    }
+   
+  }
+  
