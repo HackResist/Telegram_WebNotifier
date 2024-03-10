@@ -15,8 +15,6 @@ Telegram WebNotifier is a browser extension that sends real-time notifications t
   - Operating system details.
   - Battery level and status.
 - Ensure privacy by using a dedicated bot and chat ID.
-## Screenshot
-<p align="center"> <a href="#blank"><img src="page.png" alt="#blank"></a> </p>
 
 ## Requirements
 1. A Telegram account
