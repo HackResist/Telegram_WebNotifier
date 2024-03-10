@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "Telegram WebNotifier", 
+    "description": "Real-time Web Activity Notifications on Telegram",
+    "permissions": [
+      "tabs",
+      "webNavigation",
+      "storage",      
+      "geolocation"
+    ],
+    "background": {
+      "scripts": ["dist/background.js"], 
+      "persistent": false
+    },
+    
+    "icons": {
+      "16": "icon/icon16.png",
+      "48": "icon/icon48.png",
+      "128": "icon/icon128.png"
+    },
+    "browser_action": {
+     "default_popup": "dist/page.html",  
+      "default_icon": {
+        "16": "icon/icon16.png",
+      "48": "icon/icon48.png",
+      "128": "icon/icon128.png"
+      }
+    }
+   
+  }
+  

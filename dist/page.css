@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+
+
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    background-color: transparent !important;
+  
+    border-radius: 0%;
+    
+}
+
+.content {
+    width: 330px;
+    padding: 80px 10px;
+    background: hwb(243 3% 69%);
+    border-radius: 0px;
+}
+
+.text {
+top: -40px;
+left: 10px;
+    position: relative;
+    font-size: 27px;
+    font-weight: 200;
+    margin-top: 0%;
+    margin-bottom: 15px;
+    color: #969696;
+   
+}
+
+.github button {
+ 
+       padding: -32px -32px;
+
+  
+    border: none;
+    border-radius: 15px;
+
+    
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+
+    position: absolute;
+    top: 400px;
+    left: 37px; 
+    font-size: 20px;
+    width: 250px;
+}
+
+.github button:hover {
+    
+    background-color: #ffffff; 
+   
+}
+
+.github button a {
+   
+    text-decoration: none;
+}
+
+
+
+.field {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    
+}
+
+.field:nth-child(2),
+.field:nth-child(3) {
+    margin-top: 20px;
+}
+
+.field input {
+    height: 100%;
+    width: 100%;
+    padding-left: 45px;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    background: #02020288;
+    color: #ffffff;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px 5px #babecc9a, inset -5px -5px 10px #ffffff1f;
+}
+
+.field input:focus {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #ffffff73;
+}
+
+.field span {
+    position: absolute;
+    color: #595959;
+    width: 50px;
+    line-height: 50px;
+}
+
+.field label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px; 
+    pointer-events: none;
+    color: #250354;
+}
+
+.field input:valid ~ label {
+    opacity: 0%; 
+}
+
+.forgot-pass {
+    text-align: left;
+    margin: 10px 0 10px 5px;
+}
+
+.forgot-pass a {
+    font-size: 16px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.forgot-pass:hover a {
+    text-decoration: underline;
+    
+}
+
+button {
+    margin: 15px 0;
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: 600;
+    background: #102646;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #4e34d1;
+    box-shadow: 2px 2px 5px #555b6d, -5px -5px 10px #766f6f73;
+    
+}
+
+button:focus {
+ 
+  
+    color: #217834;
+    box-shadow: inset 2px 2px 5px #03ff356e, inset -5px -5px 10px #07ff34c0;
+}
+
+.sign-up {
+    margin: 10px 0;
+    color: #595959;
+    font-size: 16px;
+}
+
+.sign-up a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.sign-up a:hover {
+    text-decoration: underline;
+}

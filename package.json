@@ -1,0 +1,15 @@
+{
+  "name": "Telegram-WebNotifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: test not specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "https://github.com/HackResist",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.260"
+  }
+}
