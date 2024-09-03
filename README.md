@@ -1,8 +1,9 @@
 # 🚀Telegram WebNotifier🚀
->  Never Miss a Beat: Real-time Web Activity Notifications on Telegram
 
 ## Description
 Telegram WebNotifier is a browser extension that sends real-time notifications to your Telegram account whenever a webpage loads. It retrieves and sends various details, including webpage title, URL, IP address, geolocation coordinates, operating system details, battery level, and battery status.
+
+***If You Like This Don't forget to give a Start🌟***
 
 
 ## Features
