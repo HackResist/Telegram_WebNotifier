@@ -1,15 +1,21 @@
 {
   "name": "Telegram-WebNotifier",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: test not specified\" && exit 1"
+  "description": "A Chrome extension to discreetly log and send system details, browser info, and more to Telegram.",
+  "main": "background.js",
+  "author": "Lokesh Chauhan",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
   },
-  "keywords": [],
-  "author": "https://github.com/HackResist",
-  "license": "ISC",
   "devDependencies": {
-    "@types/chrome": "^0.0.260"
-  }
+  "prettier": "^3.0.0"
+  },
+  "keywords": [
+    "chrome-extension",
+    "telegram",
+    "geolocation",
+    "browser-info",
+   ]
 }
+  
