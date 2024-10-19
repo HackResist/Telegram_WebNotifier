@@ -4,7 +4,7 @@
   "description": "A Chrome extension to discreetly log and send system details, browser info, and more to Telegram.",
   "main": "background.js",
   "author": "Lokesh Chauhan",
-  "license": "MIT",
+  "license": "GPL-3.0 license",
   "dependencies": {
     "xmlhttprequest": "^1.8.0"
   },
